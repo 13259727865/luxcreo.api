@@ -33,20 +33,7 @@ class main_api:
         return acs_response.cookies.get_dict()
 
 
-    def auth_sign2(self):
-        #account登录
-        url = "/v1/sign"
-        params = {
-            'type': 'password',
-            'username': '13259727865',
-            'password': '1234qwer',
-            'SAMLRequest': self.studio_sso()
-        }
-        response = self.session.post(params=params, url=url, is_host='account')
 
-        acs_url = response.json()['acsUrl']
-        acs_response = self.session.get(url=acs_url, is_host=False)
-        return acs_response.cookies.get_dict()
     def history(self):
         #历史记录接口
         url = "/v1/workspace/history?page=1&size=10"
