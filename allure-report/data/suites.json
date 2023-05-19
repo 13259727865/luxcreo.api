@@ -1,0 +1,56 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "case.get_alarm",
+    "children" : [ {
+      "name" : "test_alarm",
+      "children" : [ {
+        "name" : "TestAlarm",
+        "children" : [ {
+          "name" : "test_get_alarm[1]",
+          "uid" : "b53f8e2152c4c0af",
+          "parentUid" : "43cd60643a2bcf057394ef68aaeceb2b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622625184385,
+            "stop" : 1622625184635,
+            "duration" : 250
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "754", "'2021-05-25 23:59:59'", "'2021-05-25 00:00:00'", "['242', '187', '199']" ]
+        }, {
+          "name" : "test_get_alarm[2]",
+          "uid" : "ccc7c5ebc2df0cdb",
+          "parentUid" : "43cd60643a2bcf057394ef68aaeceb2b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622625184677,
+            "stop" : 1622625185150,
+            "duration" : 473
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "829", "'2021-05-26 23:59:59'", "'2021-05-26 00:00:00'", "['242', '187', '199']" ]
+        }, {
+          "name" : "test_get_alarm[3]",
+          "uid" : "69aaf048dc28d998",
+          "parentUid" : "43cd60643a2bcf057394ef68aaeceb2b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622625185165,
+            "stop" : 1622625185291,
+            "duration" : 126
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "76", "'2021-05-27 23:59:59'", "'2021-05-27 00:00:00'", "['242', '187', '199']" ]
+        } ],
+        "uid" : "43cd60643a2bcf057394ef68aaeceb2b"
+      } ],
+      "uid" : "130c6baf2f82ab78adefd314b3b8bdb1"
+    } ],
+    "uid" : "4c0264dbe9c3d4aeea0d961c5203f76c"
+  } ]
+}

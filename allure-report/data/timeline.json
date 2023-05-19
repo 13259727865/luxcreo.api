@@ -1,0 +1,52 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "admin-PC",
+    "children" : [ {
+      "name" : "10532-MainThread",
+      "children" : [ {
+        "name" : "test_get_alarm[3]",
+        "uid" : "69aaf048dc28d998",
+        "parentUid" : "1426e5cb058720387abeec5c723d1832",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622625185165,
+          "stop" : 1622625185291,
+          "duration" : 126
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "76", "'2021-05-27 23:59:59'", "'2021-05-27 00:00:00'", "['242', '187', '199']" ]
+      }, {
+        "name" : "test_get_alarm[2]",
+        "uid" : "ccc7c5ebc2df0cdb",
+        "parentUid" : "1426e5cb058720387abeec5c723d1832",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622625184677,
+          "stop" : 1622625185150,
+          "duration" : 473
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "829", "'2021-05-26 23:59:59'", "'2021-05-26 00:00:00'", "['242', '187', '199']" ]
+      }, {
+        "name" : "test_get_alarm[1]",
+        "uid" : "b53f8e2152c4c0af",
+        "parentUid" : "1426e5cb058720387abeec5c723d1832",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622625184385,
+          "stop" : 1622625184635,
+          "duration" : 250
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "754", "'2021-05-25 23:59:59'", "'2021-05-25 00:00:00'", "['242', '187', '199']" ]
+      } ],
+      "uid" : "1426e5cb058720387abeec5c723d1832"
+    } ],
+    "uid" : "27e32c57d714fe31c50dd30132b971f8"
+  } ]
+}

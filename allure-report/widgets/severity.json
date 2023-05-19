@@ -1,0 +1,31 @@
+[ {
+  "uid" : "ccc7c5ebc2df0cdb",
+  "name" : "test_get_alarm[2]",
+  "time" : {
+    "start" : 1622625184677,
+    "stop" : 1622625185150,
+    "duration" : 473
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b53f8e2152c4c0af",
+  "name" : "test_get_alarm[1]",
+  "time" : {
+    "start" : 1622625184385,
+    "stop" : 1622625184635,
+    "duration" : 250
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "69aaf048dc28d998",
+  "name" : "test_get_alarm[3]",
+  "time" : {
+    "start" : 1622625185165,
+    "stop" : 1622625185291,
+    "duration" : 126
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

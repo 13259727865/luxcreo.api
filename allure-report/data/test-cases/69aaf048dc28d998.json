@@ -1,0 +1,150 @@
+{
+  "uid" : "69aaf048dc28d998",
+  "name" : "test_get_alarm[3]",
+  "fullName" : "case.get_alarm.test_alarm.TestAlarm#test_get_alarm",
+  "historyId" : "33c3542f0bd193d8df22cfc290c0c6a0",
+  "time" : {
+    "start" : 1622625185165,
+    "stop" : 1622625185291,
+    "duration" : 126
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1622625184231,
+      "stop" : 1622625184362,
+      "duration" : 131
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "读取('api', 'login_api.yaml')",
+      "time" : {
+        "start" : 1622625184274,
+        "stop" : 1622625184274,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "读取('api', 'vehicle_alarm')",
+      "time" : {
+        "start" : 1622625184361,
+        "stop" : 1622625184361,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8101f50b9636b5d4",
+      "name" : "log",
+      "source" : "8101f50b9636b5d4.txt",
+      "type" : "text/plain",
+      "size" : 270
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1622625185301,
+      "stop" : 1622625185301,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "时间，车辆输入"
+  }, {
+    "name" : "feature",
+    "value" : "报警查询用例类"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case.get_alarm"
+  }, {
+    "name" : "suite",
+    "value" : "test_alarm"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAlarm"
+  }, {
+    "name" : "host",
+    "value" : "admin-PC"
+  }, {
+    "name" : "thread",
+    "value" : "10532-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.get_alarm.test_alarm"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "count",
+    "value" : "76"
+  }, {
+    "name" : "end_time",
+    "value" : "'2021-05-27 23:59:59'"
+  }, {
+    "name" : "start_time",
+    "value" : "'2021-05-27 00:00:00'"
+  }, {
+    "name" : "vehicle_id",
+    "value" : "['242', '187', '199']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "69aaf048dc28d998.json",
+  "parameterValues" : [ "76", "'2021-05-27 23:59:59'", "'2021-05-27 00:00:00'", "['242', '187', '199']" ]
+}

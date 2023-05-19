@@ -1,0 +1,52 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "报警查询用例类",
+    "children" : [ {
+      "name" : "时间，车辆输入",
+      "children" : [ {
+        "name" : "test_get_alarm[1]",
+        "uid" : "b53f8e2152c4c0af",
+        "parentUid" : "bd07098e1f5f0d1215333bcf6ed16fd3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622625184385,
+          "stop" : 1622625184635,
+          "duration" : 250
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "754", "'2021-05-25 23:59:59'", "'2021-05-25 00:00:00'", "['242', '187', '199']" ]
+      }, {
+        "name" : "test_get_alarm[2]",
+        "uid" : "ccc7c5ebc2df0cdb",
+        "parentUid" : "bd07098e1f5f0d1215333bcf6ed16fd3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622625184677,
+          "stop" : 1622625185150,
+          "duration" : 473
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "829", "'2021-05-26 23:59:59'", "'2021-05-26 00:00:00'", "['242', '187', '199']" ]
+      }, {
+        "name" : "test_get_alarm[3]",
+        "uid" : "69aaf048dc28d998",
+        "parentUid" : "bd07098e1f5f0d1215333bcf6ed16fd3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622625185165,
+          "stop" : 1622625185291,
+          "duration" : 126
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "76", "'2021-05-27 23:59:59'", "'2021-05-27 00:00:00'", "['242', '187', '199']" ]
+      } ],
+      "uid" : "bd07098e1f5f0d1215333bcf6ed16fd3"
+    } ],
+    "uid" : "09e24b7560aa1ea2d8552c38adb2f31d"
+  } ]
+}
